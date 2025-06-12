@@ -1,0 +1,47 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 199989,
+                "file_path": "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-199989.onnx",
+                "reward": 6.885285728264089,
+                "creation_time": 1745506819.7254713,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-199989.pt"
+                ]
+            },
+            {
+                "steps": 299976,
+                "file_path": "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-299976.onnx",
+                "reward": 5.372618332970887,
+                "creation_time": 1745506969.6154337,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-299976.pt"
+                ]
+            },
+            {
+                "steps": 302650,
+                "file_path": "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-302650.onnx",
+                "reward": 6.511278495537462,
+                "creation_time": 1745506979.0232081,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-302650.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 302650,
+            "file_path": "results\\AgenteCompetitivo_Nivel1\\Comportamiento1.onnx",
+            "reward": 6.511278495537462,
+            "creation_time": 1745506979.0232081,
+            "auxillary_file_paths": [
+                "results\\AgenteCompetitivo_Nivel1\\Comportamiento1\\Comportamiento1-302650.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

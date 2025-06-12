@@ -1,0 +1,56 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 258766,
+                "file_path": "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-258766.onnx",
+                "reward": 21.421424914399783,
+                "creation_time": 1739468509.4055758,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-258766.pt"
+                ]
+            },
+            {
+                "steps": 499948,
+                "file_path": "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-499948.onnx",
+                "reward": 22.79451347799862,
+                "creation_time": 1739531030.4733424,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-499948.pt"
+                ]
+            },
+            {
+                "steps": 587425,
+                "file_path": "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-587425.onnx",
+                "reward": null,
+                "creation_time": 1739531170.3938138,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-587425.pt"
+                ]
+            },
+            {
+                "steps": 595901,
+                "file_path": "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-595901.onnx",
+                "reward": 22.571085384913854,
+                "creation_time": 1739531292.6738663,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-595901.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 595901,
+            "file_path": "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1.onnx",
+            "reward": 22.571085384913854,
+            "creation_time": 1739531292.6738663,
+            "auxillary_file_paths": [
+                "results\\PrimerIntentoNivel2_Continuacion\\Comportamiento1\\Comportamiento1-595901.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

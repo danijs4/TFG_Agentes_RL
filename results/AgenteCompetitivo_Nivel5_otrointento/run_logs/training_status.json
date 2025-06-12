@@ -1,0 +1,47 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 899981,
+                "file_path": "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-899981.onnx",
+                "reward": 16.355419335604616,
+                "creation_time": 1745861261.3950782,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-899981.pt"
+                ]
+            },
+            {
+                "steps": 999995,
+                "file_path": "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-999995.onnx",
+                "reward": 21.890004791484937,
+                "creation_time": 1745861432.8073158,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-999995.pt"
+                ]
+            },
+            {
+                "steps": 1046403,
+                "file_path": "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-1046403.onnx",
+                "reward": 20.124911228635096,
+                "creation_time": 1745861573.6608477,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-1046403.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1046403,
+            "file_path": "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1.onnx",
+            "reward": 20.124911228635096,
+            "creation_time": 1745861573.6608477,
+            "auxillary_file_paths": [
+                "results\\AgenteCompetitivo_Nivel5_otrointento\\Comportamiento1\\Comportamiento1-1046403.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 399958,
+                "file_path": "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-399958.onnx",
+                "reward": 1.8109319888903659,
+                "creation_time": 1742214915.0102627,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-399958.pt"
+                ]
+            },
+            {
+                "steps": 599973,
+                "file_path": "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-599973.onnx",
+                "reward": 2.3639031604885363,
+                "creation_time": 1742215232.9069448,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-599973.pt"
+                ]
+            },
+            {
+                "steps": 799982,
+                "file_path": "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-799982.onnx",
+                "reward": 2.6410864661650164,
+                "creation_time": 1742215548.6784523,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-799982.pt"
+                ]
+            },
+            {
+                "steps": 999938,
+                "file_path": "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-999938.onnx",
+                "reward": 2.1132785736654816,
+                "creation_time": 1742215868.9222162,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-999938.pt"
+                ]
+            },
+            {
+                "steps": 1000002,
+                "file_path": "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-1000002.onnx",
+                "reward": 2.1132785736654816,
+                "creation_time": 1742215868.9517665,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-1000002.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000002,
+            "file_path": "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1.onnx",
+            "reward": 2.1132785736654816,
+            "creation_time": 1742215868.9517665,
+            "auxillary_file_paths": [
+                "results\\PrimerIntentoNivel4_mayor_plataforma\\Comportamiento1\\Comportamiento1-1000002.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

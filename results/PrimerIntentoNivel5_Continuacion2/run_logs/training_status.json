@@ -1,0 +1,38 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 199945,
+                "file_path": "results\\PrimerIntentoNivel5_Continuacion2\\Comportamiento1\\Comportamiento1-199945.onnx",
+                "reward": 10.87696862771774,
+                "creation_time": 1743851796.662252,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel5_Continuacion2\\Comportamiento1\\Comportamiento1-199945.pt"
+                ]
+            },
+            {
+                "steps": 220057,
+                "file_path": "results\\PrimerIntentoNivel5_Continuacion2\\Comportamiento1\\Comportamiento1-220057.onnx",
+                "reward": 10.493284232381624,
+                "creation_time": 1743851825.8543413,
+                "auxillary_file_paths": [
+                    "results\\PrimerIntentoNivel5_Continuacion2\\Comportamiento1\\Comportamiento1-220057.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 220057,
+            "file_path": "results\\PrimerIntentoNivel5_Continuacion2\\Comportamiento1.onnx",
+            "reward": 10.493284232381624,
+            "creation_time": 1743851825.8543413,
+            "auxillary_file_paths": [
+                "results\\PrimerIntentoNivel5_Continuacion2\\Comportamiento1\\Comportamiento1-220057.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

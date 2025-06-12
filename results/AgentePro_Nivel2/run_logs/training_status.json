@@ -1,0 +1,47 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 1499974,
+                "file_path": "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1499974.onnx",
+                "reward": 3.504667832530462,
+                "creation_time": 1746637117.1587281,
+                "auxillary_file_paths": [
+                    "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1499974.pt"
+                ]
+            },
+            {
+                "steps": 1599961,
+                "file_path": "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1599961.onnx",
+                "reward": 3.7702519311791374,
+                "creation_time": 1746637277.6213012,
+                "auxillary_file_paths": [
+                    "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1599961.pt"
+                ]
+            },
+            {
+                "steps": 1657734,
+                "file_path": "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1657734.onnx",
+                "reward": null,
+                "creation_time": 1746637370.3265688,
+                "auxillary_file_paths": [
+                    "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1657734.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1657734,
+            "file_path": "results\\AgentePro_Nivel2\\Comportamiento1.onnx",
+            "reward": null,
+            "creation_time": 1746637370.3265688,
+            "auxillary_file_paths": [
+                "results\\AgentePro_Nivel2\\Comportamiento1\\Comportamiento1-1657734.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

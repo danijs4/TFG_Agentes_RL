@@ -1,0 +1,38 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 99991,
+                "file_path": "results\\AgenteCompetitivo_Nivel3\\Comportamiento1\\Comportamiento1-99991.onnx",
+                "reward": 10.331129839243454,
+                "creation_time": 1745508566.3376694,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel3\\Comportamiento1\\Comportamiento1-99991.pt"
+                ]
+            },
+            {
+                "steps": 140780,
+                "file_path": "results\\AgenteCompetitivo_Nivel3\\Comportamiento1\\Comportamiento1-140780.onnx",
+                "reward": 13.39547519165001,
+                "creation_time": 1745508628.3710425,
+                "auxillary_file_paths": [
+                    "results\\AgenteCompetitivo_Nivel3\\Comportamiento1\\Comportamiento1-140780.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 140780,
+            "file_path": "results\\AgenteCompetitivo_Nivel3\\Comportamiento1.onnx",
+            "reward": 13.39547519165001,
+            "creation_time": 1745508628.3710425,
+            "auxillary_file_paths": [
+                "results\\AgenteCompetitivo_Nivel3\\Comportamiento1\\Comportamiento1-140780.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}

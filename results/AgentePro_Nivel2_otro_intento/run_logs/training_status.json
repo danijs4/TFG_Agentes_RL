@@ -1,0 +1,47 @@
+{
+    "Comportamiento1": {
+        "checkpoints": [
+            {
+                "steps": 2199996,
+                "file_path": "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2199996.onnx",
+                "reward": 3.823874640819572,
+                "creation_time": 1746959896.187813,
+                "auxillary_file_paths": [
+                    "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2199996.pt"
+                ]
+            },
+            {
+                "steps": 2299996,
+                "file_path": "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2299996.onnx",
+                "reward": 3.841742603460679,
+                "creation_time": 1746960056.5426579,
+                "auxillary_file_paths": [
+                    "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2299996.pt"
+                ]
+            },
+            {
+                "steps": 2328732,
+                "file_path": "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2328732.onnx",
+                "reward": 3.8244112162126433,
+                "creation_time": 1746960102.8291855,
+                "auxillary_file_paths": [
+                    "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2328732.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2328732,
+            "file_path": "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1.onnx",
+            "reward": 3.8244112162126433,
+            "creation_time": 1746960102.8291855,
+            "auxillary_file_paths": [
+                "results\\AgentePro_Nivel2_otro_intento\\Comportamiento1\\Comportamiento1-2328732.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.4.1+cpu"
+    }
+}
