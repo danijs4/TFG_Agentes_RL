@@ -18,7 +18,7 @@ public class AgenteN2 : Agent
     private int numExitos = 0;
     private int numMaxExitos = 50;
 
-    [SerializeField] private Transform puertalvl1Transform;
+    [SerializeField] private Transform puertalvl1Transform;           // Posicion de la puerta
     [SerializeField] private List<MeshRenderer> placasMeshRenderers;  // Lista de placas
 
 
@@ -27,16 +27,16 @@ public class AgenteN2 : Agent
     {
         rb = GetComponent<Rigidbody>();
 
-
     }
 
+    // Método llamado cada vez que inicia un episodio
     public override void OnEpisodeBegin()   //resetear posiciones de agente y puerta y colores de placas
     {
 
         if (numExitos >= numMaxExitos) //detener el entrenamiento tras x exitos (para tener una condicion con la que dar un nivel por aprendido)
         {
 
-            // Detener la ejecucion de Unity
+            // Detener la ejecucion en el editor de Unity
             #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
             #else
@@ -52,12 +52,11 @@ public class AgenteN2 : Agent
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
-        //Nivel 1-4
-        //puertalvl1Transform.localPosition = new Vector3(-0.05f, 1.3f, 6.535f);
-        //Nivel 5
-        puertalvl1Transform.localPosition = new Vector3(-5.18f, 7.12f, -6.47f);
+        //Nivel 1-4 descomentar la siguiente linea
+        puertalvl1Transform.localPosition = new Vector3(-0.05f, 1.3f, 6.535f);
+        //Nivel 5 descomentar la siguiente linea
+        //puertalvl1Transform.localPosition = new Vector3(-5.18f, 7.12f, -6.47f);
 
-        //placaMeshRenderer.material.color = Color.red;
 
         //restaurar todas las placas a color rojo
         foreach (MeshRenderer placa in placasMeshRenderers)
@@ -102,33 +101,20 @@ public class AgenteN2 : Agent
         }
     }
 
+    //Método para añadir la fuerza que provoca el salto
     void Jump()
     {
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         isGrounded = false;
     }
 
+    //Método que recoge las observaciones que se pasan a la red en un vector
     public override void CollectObservations(VectorSensor sensor)   //observaciones con las que el agente toma decisiones
-    {/*
-        //posicion en x,y,z
-        sensor.AddObservation(transform.localPosition);
-
-        //rotacion eje Y 
-        sensor.AddObservation(transform.rotation.eulerAngles.y);
-
-        //distancia a la meta
-        float distanciaMeta = Vector3.Distance(puertalvl1Transform.localPosition, transform.localPosition);
-        sensor.AddObservation(distanciaMeta);
-
-        // velocidad actual
-        //sensor.AddObservation(rb.velocity);
-
-        // Si está en el suelo
-        sensor.AddObservation(isGrounded ? 1f : 0f);
-        */
+    {
 
     }
 
+    //Método llamado cuando hay una colisión física. Usado para determinar si el agente está en el suelo
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -142,7 +128,7 @@ public class AgenteN2 : Agent
     }
 
 
-
+    //Método con el que se le da lógica a las acciones. Tomamos los números del vector y decidimos que significa cada uno
     public override void OnActionReceived(ActionBuffers actions)
     {
 
@@ -194,6 +180,7 @@ public class AgenteN2 : Agent
 
     }
 
+    //Método llamado cuando hay colisión con un target/trigger. Es con el que se determinan la mayoría de las recompensas
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.CompareTag("Meta"))
@@ -235,6 +222,7 @@ public class AgenteN2 : Agent
         }
     }
 
+    //Método para mover el agente con el teclado
     public override void Heuristic(in ActionBuffers actionsOut)
     {
         ActionSegment<float> continuousActions = actionsOut.ContinuousActions;
