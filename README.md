@@ -24,10 +24,12 @@ Estas son las tecnologías y la versión utilizadas. Cabe destacar que para mayo
 - mlagents 0.30.0 con pip en Python (debería servir la última versión)
 - torch 2.4.1 con pip en Python (debería servir la última versión)
 - tensorboard 2.18 con pip en Python (debería servir la última versión)
+
+
 Además, para evitar la aparición de ciertos errores fue útil la instalación de estos tres paquetes:
-pip3 install torch torchvision torchaudio
-pip install protobuf==3.20.3
-pip install packaging
+- pip3 install torch torchvision torchaudio
+- pip install protobuf==3.20.3
+- pip install packaging
 
 ## 🚀 Abrir el proyecto
 
